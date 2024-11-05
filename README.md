@@ -64,9 +64,13 @@ init_epsilon=0.1, min_epsilon=0.1, epsilon_decay_ratio=0.9, n_episodes=3000):
 ```
 ## OUTPUT:
 Mention the optimal policy, optimal value function , success rate for the optimal policy.
+![Screenshot 2024-11-05 140732](https://github.com/user-attachments/assets/a1389ff4-5e67-47c7-b6a3-8702223ba8c1)
 
 
 Include plot comparing the state value functions of Monte Carlo method and SARSA learning.
+![Screenshot 2024-11-05 140747](https://github.com/user-attachments/assets/136bcecc-bad8-4690-82ec-975b09cf9f6a)
+
+![Screenshot 2024-11-05 140801](https://github.com/user-attachments/assets/bddaa9a5-8546-4656-8fb1-a0d77bcbb5ad)
 
 ## RESULT:
 
