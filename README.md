@@ -29,6 +29,7 @@ Return the Q-table and the learned policy after completing all episodes.
 ### Register Number:212222230169
 
 Include the SARSA Learning function
+```
 from tqdm import tqdm
 import numpy as np
 def sarsa(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
@@ -60,7 +61,7 @@ init_epsilon=0.1, min_epsilon=0.1, epsilon_decay_ratio=0.9, n_episodes=3000):
     V = np.max(Q, axis=1)
     pi=lambda s:{s:a for s, a in enumerate(np.argmax(Q, axis=1))}[s]
   return Q, V, pi, Q_track, pi_track
-
+```
 ## OUTPUT:
 Mention the optimal policy, optimal value function , success rate for the optimal policy.
 
